@@ -1,5 +1,5 @@
 # Mongo-backup
-***Incremental backup tool for MongoDB***
+***Full and Incremental backup tool for MongoDB***
 
 ## Overview
 Mongobackup is an external tool performing full & incremental backup. Backup are stored on the filesystem and compressed using the [lz4 algorithm](https://code.google.com/p/lz4/). Full backup are done by performing a file system copy of the dbPath and partial oplog dump is used for incremental backup.
